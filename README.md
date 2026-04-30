@@ -1,6 +1,6 @@
 # 🤖 Persona Chatbot
 
-> **Assignment 01 — Prompt Engineering | Scaler Academy**
+> **Assignment 01 — Prompt Engineering**
 > A full-stack AI chatbot that lets you converse with three Scaler/InterviewBit-inspired personalities.
 
 ---
@@ -261,6 +261,4 @@ The real `.env` is excluded via `.gitignore`.
 
 ---
 
-## 👩‍💻 Author
 
-Built by **Jasmine** for Scaler Academy — Prompt Engineering Assignment 01.
