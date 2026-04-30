@@ -44,7 +44,7 @@ function App() {
     setLoading(true);
 
     try {
-      const res = await axios.post("http://localhost:5000/chat", {
+      const res = await axios.post("https://persona-chatbot-backend-3twv.onrender.com/chat", {
         message: text,
         persona
       });
@@ -54,9 +54,13 @@ function App() {
         { role: "bot", content: res.data.reply }
       ]);
     } catch (err) {
+      console.log("FRONTEND ERROR:", err);
       setMessages([
         ...newMessages,
-        { role: "bot", content: "Error occurred" }
+        {
+          role: "bot",
+          content: err.response?.data?.reply || err.message || "Error occurred"
+        }
       ]);
     }
 
