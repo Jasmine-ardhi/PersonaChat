@@ -9,7 +9,7 @@
 
 | Resource | URL |
 |---|---|
-| 🚀 Frontend (Vercel) | _Paste your Vercel link here_ |
+| 🚀 Frontend (Vercel) | http://localhost:5174/|
 | ⚙️ Backend (Render) | [persona-chatbot-backend-3twv.onrender.com](https://persona-chatbot-backend-3twv.onrender.com) |
 | 📁 GitHub Repository | [github.com/Jasmine-ardhi/PersonaChat](https://github.com/Jasmine-ardhi/PersonaChat) |
 
